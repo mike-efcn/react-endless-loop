@@ -22,7 +22,8 @@
   ],
   "scripts": {
     "build": "webpack --mode=production",
-    "start": "webpack serve --mode=development"
+    "start": "webpack serve --mode=development",
+    "lint": "eslint src/App.jsx"
   },
   "dependencies": {
     "normalize.css": "^8.0.1",
@@ -36,6 +37,10 @@
     "@babel/preset-react": "^7.12.10",
     "babel-loader": "^8.2.2",
     "css-loader": "^5.0.1",
+    "eslint": "^7.25.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
     "html-webpack-plugin": "^4.5.1",
     "less": "^4.1.1",
     "less-loader": "^7.3.0",
